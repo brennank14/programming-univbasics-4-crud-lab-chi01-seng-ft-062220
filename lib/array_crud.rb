@@ -7,8 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array1 = [hello, goodbye]
-  array1.push('later')
+  array1 = ["hello", "hi"]
+  greet3 = "how are you"
+  array1.push(greet3)
 end
 
 def add_element_to_start_of_array(array, element)
